@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+  <meta charset="UTF-8">
+  <title>Məhsullar</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/card.css">
+  <script src="js/card.js" defer></script>
+</head>
+<body>
+ <!-- Header -->
+<header class="main-header">
+  <div class="header-container">
+    <div class="logo">
+      <a href="index.html">
+        <img src="images/header-icon.jpeg" alt="Sharling">
+      </a>
+    </div>
+
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="Məhsul axtar...">
+      <div id="searchResults" class="search-results"></div>
+    </div>
+
+    <div class="catalog-dropdown">
+      <button class="catalog-toggle">📂 Məhsul kataloqu</button>
+      <div class="catalog-menu"></div>
+    </div>
+  </div>
+</header>
+
+
+  <!-- Main content -->
+  <div class="container">
+   <section class="all-sec">
+
+        <!-- Filtr -->
+        <div class="filters-panel">
+          <h3>Filtr</h3>
+
+          <div class="filter-panel">
+            <div class="filter-group2">
+              <input type="checkbox" id="discountOnly">
+              <label for="discountOnly" class="filter-label">Endirimli</label>
+            </div>
+
+            <div class="filter-group">
+              <label class="filter-label">Qiyməti</label>
+              <div class="price-inputs">
+                <input type="number" id="minPrice" placeholder="0" value="0">
+                <span>-</span>
+                <input type="number" id="maxPrice" placeholder="5000" value="5000">
+                <button id="priceFilterBtn">OK</button>
+              </div>
+              <div class="price-slider">
+                <input type="range" id="priceRangeMin" min="0" max="5000" value="0" step="50">
+                <input type="range" id="priceRangeMax" min="0" max="5000" value="5000" step="50">
+              </div>
+            </div>
+
+            <div class="filter-group">
+              <label class="filter-label">Brend</label>
+              <div class="brand-checkboxes" id="brand-filter">
+                <label><input type="checkbox" name="brand" value="Samsung"> Samsung</label>
+                <label><input type="checkbox" name="brand" value="LG"> LG</label>
+                <label><input type="checkbox" name="brand" value="Bosch"> Bosch</label>
+                <label><input type="checkbox" name="brand" value="Artel"> Artel</label>
+              </div>
+              <div class="brand-checkboxes hidden" id="bed-brand-filter">
+                <label><input type="checkbox" name="brand" value="IKEA"> IKEA</label>
+                <label><input type="checkbox" name="brand" value="Bellona"> Bellona</label>
+              </div>
+            </div>
+
+            <div class="filter-group">
+              <label for="sortBy" class="filter-label">Əvvəlcə:</label>
+              <select id="sortBy">
+                <option value="default">Populyar</option>
+                <option value="price-asc">Ən ucuz</option>
+                <option value="price-desc">Ən bahalı</option>
+                <option value="name-asc">A-Z</option>
+                <option value="name-desc">Z-A</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <!-- Məhsullar -->
+        <div class="products-section" id="products">
+          <h2>Məhsullar</h2>
+          <div id="product-list"></div>
+        </div>
+
+      </section>
+  </div>
+</body>
+</html>

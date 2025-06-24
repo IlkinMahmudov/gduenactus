@@ -1,0 +1,230 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sharling- Rent Items with Ease</title>
+ <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header class="header">
+    <div class="nav">
+      <div class="nav-left">
+        <img src="images/hd-icon.png" alt="header-icon">
+        <strong>Sharling</strong>
+      </div> 
+   <div class="nav-right">
+  <a href="#about">About</a>
+  <a href="#contact">Contact</a>
+</div>
+
+    </div>
+
+    <div class="hero">
+      <h1>Rent Items with Ease,<br>Browse our wide range of rental items</h1>
+      <p></p>
+      <button class="button-primary">Get Started</button>
+    </div>
+
+
+    
+  </header>
+
+  <!-- Main Container -->
+  <main class="container">
+
+    <!-- Filter Section -->
+    <div class="filters">
+      <button class="filter-button active" data-category="all">All</button>
+      <button class="filter-button" data-category="appliances">Appliances</button>
+      <button class="filter-button" data-category="furniture">Furniture</button>
+      <button class="filter-button" data-category="electronics">Electronics</button>
+    </div>
+
+<!-- Cards Grid -->
+<div class="grid">
+  <!-- Appliances -->
+<!-- Appliances -->
+<div class="card show" data-category="appliances" data-name="washing-machines">
+  <img src="images/machine.png" alt="machine-icon">
+  <p>Washing Machines</p>
+</div>
+
+<div class="card show" data-category="appliances" data-name="blenders">
+  <img src="images/blender.png" alt="blender">
+  <p>Blenders</p>
+</div>
+
+<div class="card show" data-category="appliances" data-name="refrigerators">
+  <img src="images/refrigenators.webp" alt="refrigerator">
+  <p>Refrigerators</p>
+</div>
+
+<div class="card show" data-category="appliances" data-name="microwaves">
+  <img src="images/microwave.png" alt="microwave">
+  <p>Microwaves</p>
+</div>
+
+<!-- Electronics -->
+<div class="card show" data-category="electronics" data-name="drones">
+  <img src="images/drone.png" alt="drone">
+  <p>Drones</p>
+</div>
+
+<div class="card show" data-category="electronics" data-name="laptops">
+  <img src="images/laptop.png" alt="laptop">
+  <p>Laptops</p>
+</div>
+
+<div class="card show" data-category="electronics" data-name="powertools">
+  <img src="images/powertools.png" alt="powertools">
+  <p>Power Tools</p>
+</div>
+
+<div class="card show" data-category="electronics" data-name="cameras">
+  <img src="images/cameras.png" alt="camera">
+  <p>Cameras</p>
+</div>
+
+<!-- Furniture -->
+<div class="card show" data-category="furniture" data-name="beds">
+  <img src="images/bed.png" alt="bed">
+  <p>Beds</p>
+</div>
+
+<div class="card show" data-category="furniture" data-name="chairs">
+  <img src="images/chair.png" alt="chair">
+  <p>Chairs</p>
+</div>
+
+<div class="card show" data-category="furniture" data-name="sofas">
+  <img src="images/sofa.png" alt="sofa">
+  <p>Sofas</p>
+</div>
+
+<div class="card show" data-category="furniture" data-name="wardrobes">
+  <img src="images/wardrobes.png" alt="wardrobe">
+  <p>Wardrobes</p>
+</div>
+
+
+  <!-- Furniture -->
+
+
+
+</div>
+
+<div class="sec-1">
+  <div class="section-grid">
+
+  </div>
+
+
+</div>
+
+<section id="about" class="about-section">
+  <h2>About Us</h2>
+  <div class="about-content">
+    <img src="images/about-us.png" alt="About Image" class="about-img">
+    <p>
+      Welcome to <strong>Rentify</strong> — your one-stop platform for renting high-quality items with unmatched convenience. 
+      Founded with a mission to simplify everyday living, Rentify connects people with affordable access to household 
+      essentials, electronics, furniture, and more, without the burden of ownership.
+      <br><br>
+      Whether you're a student needing a temporary laptop, a homeowner looking to rent tools, or a business equipping 
+      a short-term space — we have a solution for you. With a user-friendly interface, secure booking, flexible rental 
+      terms, and real-time support, Rentify ensures that the rental experience is as smooth as owning.
+      <br><br>
+      Our team is committed to sustainable practices by encouraging the reuse of valuable products, minimizing waste, 
+      and empowering communities to share more, buy less. Thousands of satisfied users trust Rentify for their day-to-day 
+      and special occasion needs.
+    </p>
+  </div>
+</section>
+
+<section id="contact" class="contact-section">
+  <h2>Contact Us</h2>
+  <div class="contact-content">
+    <img src="images/contact.png" alt="Contact Image" class="contact-img">
+    <p>
+      We'd love to hear from you! At <strong>Rentify</strong>, we believe open communication is the foundation of trust. 
+      Whether you have questions about our rental process, need help with an existing booking, or want to give feedback — 
+      our support team is ready to assist you.
+      <br><br>
+      Reach out to us any time via email at <strong>gduenactus@gmail.com</strong>. You can also connect with us on social 
+      media platforms like Instagram, Facebook, and Twitter for updates, offers, and news.
+      <br><br>
+      If you're a business or partner interested in collaboration, feel free to get in touch through our partnership page. 
+      We’re constantly growing and would love to explore opportunities to work together.
+      <br><br>
+      Your satisfaction is our number one priority, and we aim to respond to all inquiries within 24 hours.
+    </p>
+  </div>
+</section>
+
+
+
+  </main>
+
+<script>
+  const filterButtons = document.querySelectorAll('.filter-button');
+  const cards = document.querySelectorAll('.card');
+
+  // Filterlər üçün
+  filterButtons.forEach(button => {
+    button.addEventListener('click', () => {
+      filterButtons.forEach(btn => btn.classList.remove('active'));
+      button.classList.add('active');
+      const category = button.getAttribute('data-category');
+
+      cards.forEach(card => {
+        card.classList.toggle('show', category === 'all' || card.getAttribute('data-category') === category);
+      });
+    });
+  });
+
+  // Kart klikləri üçün YÖNLƏNDİRMƏ
+  cards.forEach(card => {
+    card.addEventListener("click", () => {
+      const category = card.getAttribute("data-category");
+      const name = card.getAttribute("data-name");
+      window.location.href = `card.html?category=${category}&name=${name}`;
+    });
+  });
+  document.addEventListener("DOMContentLoaded", () => {
+  const categories = [
+    { name: "blenders", label: "🥤 Blenderlər" },
+    { name: "washing-machines", label: "🌀 Paltaryuyanlar" },
+    { name: "microwaves", label: "🍲 Mikrodalğalı sobalar" },
+    { name: "refrigerators", label: "🧊 Soyuducular" },
+    { name: "laptops", label: "💻 Noutbuklar" },
+    { name: "cameras", label: "📸 Kameralar" },
+    { name: "sofas", label: "🛋️ Divanlar" },
+    { name: "chairs", label: "🪑 Oturacaqlar" },
+    { name: "beds", label: "🛏️ Çarpayılar" },
+    { name: "wardrobes", label: "🚪 Dolablar" },
+    { name: "powertools", label: "🔧 Elektrik alətləri" },
+    { name: "electronics", label: "📱 Elektronika" },
+    { name: "drones", label: "🛩️ Dronlar" }
+  ];
+
+  const menuContainer = document.querySelector(".catalog-menu");
+  if (!menuContainer) return;
+
+  categories.forEach(cat => {
+    const a = document.createElement("a");
+    a.href = `card.html?category=appliances&name=${cat.name}`;
+    a.textContent = cat.label;
+    a.className = "catalog-item";
+    menuContainer.appendChild(a);
+  });
+});
+
+</script>
+
+</body>
+
+</html>
