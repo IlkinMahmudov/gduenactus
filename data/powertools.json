@@ -1,7 +1,8 @@
 [
   {
-    "name": "Power Tool 1",
-    "desc": "Bosch qazma aləti, 650W güc.",
+    "name": "Bosch GSB 650 Professional Drel",
+    "brand": "Bosch",
+    "desc": "650W gücündə qazma aləti, dəqiq və davamlı iş üçün.",
     "price": 30,
     "old_price": 45,
     "discount": 33,
@@ -9,11 +10,12 @@
     "review_count": 12,
     "condition": "yeni",
     "location": "Bakı",
-    "image": "images/powertools.png"
+    "image": "images/powertools-1.webp"
   },
   {
-    "name": "Power Tool 2",
-    "desc": "İstifadə olunmuş, işlək mişar.",
+    "name": "Makita M5802 Mişar 185mm",
+    "brand": "Makita",
+    "desc": "İkinci əl, lakin işlək vəziyyətdə Makita elektrikli mişar.",
     "price": 20,
     "old_price": 35,
     "discount": 43,
@@ -21,47 +23,12 @@
     "review_count": 6,
     "condition": "islenmis",
     "location": "Sumqayıt",
-    "image": "images/powertools.png"
+    "image": "images/powertools-2.webp"
   },
   {
-    "name": "Power Tool 3",
-    "desc": "Makita perforator, güclü və etibarlı.",
-    "price": 35,
-    "old_price": 50,
-    "discount": 30,
-    "rating": 4.7,
-    "review_count": 10,
-    "condition": "yeni",
-    "location": "Gəncə",
-    "image": "images/powertools.png"
-  },
-  {
-    "name": "Power Tool 4",
-    "desc": "Köhnə model, ancaq işlək vəziyyətdə.",
-    "price": 18,
-    "old_price": 30,
-    "discount": 40,
-    "rating": 3.8,
-    "review_count": 5,
-    "condition": "islenmis",
-    "location": "Mingəçevir",
-    "image": "images/powertools.png"
-  },
-  {
-    "name": "Power Tool 5",
-    "desc": "Zımpara aləti, yeni və istifadəyə hazır.",
-    "price": 28,
-    "old_price": 40,
-    "discount": 30,
-    "rating": 4.2,
-    "review_count": 8,
-    "condition": "yeni",
-    "location": "Xırdalan",
-    "image": "images/powertools.png"
-  },
-  {
-    "name": "Power Tool 6",
-    "desc": "Hilti professional drel.",
+    "name": "Hilti TE 7-C SDS Plus Drel",
+    "brand": "Hilti",
+    "desc": "Ağır işlər üçün peşəkar güclü qazma cihazı.",
     "price": 38,
     "old_price": 55,
     "discount": 31,
@@ -69,35 +36,25 @@
     "review_count": 7,
     "condition": "yeni",
     "location": "Şəki",
-    "image": "images/powertools.png"
+    "image": "images/powertools-3.webp"
   },
   {
-    "name": "Power Tool 7",
-    "desc": "Əla vəziyyətdə, ikinci əl tornavida seti.",
-    "price": 15,
-    "old_price": 25,
-    "discount": 40,
-    "rating": 4.0,
-    "review_count": 4,
-    "condition": "islenmis",
-    "location": "Quba",
-    "image": "images/powertools.png"
-  },
-  {
-    "name": "Power Tool 8",
-    "desc": "Yeni gəlmiş elektrik tornavida.",
-    "price": 25,
-    "old_price": 35,
-    "discount": 29,
-    "rating": 4.3,
-    "review_count": 9,
+    "name": "Black+Decker BEW230 Zımpara Aləti",
+    "brand": "Black & Decker",
+    "desc": "Yeni model zımpara, portativ və istifadəyə hazır.",
+    "price": 28,
+    "old_price": 40,
+    "discount": 30,
+    "rating": 4.2,
+    "review_count": 8,
     "condition": "yeni",
-    "location": "Tovuz",
-    "image": "images/powertools.png"
+    "location": "Xırdalan",
+    "image": "images/powertools-4.webp"
   },
   {
-    "name": "Power Tool 9",
-    "desc": "Beton qazma üçün ideal perforator.",
+    "name": "Bosch GBH 2-26 DFR Perforator",
+    "brand": "Bosch",
+    "desc": "Beton və metal üçün güclü perforator.",
     "price": 40,
     "old_price": 60,
     "discount": 33,
@@ -105,11 +62,12 @@
     "review_count": 10,
     "condition": "yeni",
     "location": "Şamaxı",
-    "image": "images/powertools.png"
+    "image": "images/powertools-5.webp"
   },
   {
-    "name": "Power Tool 10",
-    "desc": "İşlənmiş elektrik mişarı.",
+    "name": "Makita DF457DWE Vintaçan",
+    "brand": "Makita",
+    "desc": "İşlək vəziyyətdə, 18V akkumulyatorlu vintaçan.",
     "price": 22,
     "old_price": 33,
     "discount": 33,
@@ -117,11 +75,12 @@
     "review_count": 5,
     "condition": "islenmis",
     "location": "Bərdə",
-    "image": "images/powertools.png"
+    "image": "images/powertools-6.webp"
   },
   {
-    "name": "Power Tool 11",
-    "desc": "Professional səsiz qazma cihazı.",
+    "name": "Hilti SF 6H-A22 Akumulyatorlu Drel",
+    "brand": "Hilti",
+    "desc": "Peşəkar istifadə üçün yüksək güclü drel.",
     "price": 50,
     "old_price": 65,
     "discount": 23,
@@ -129,11 +88,12 @@
     "review_count": 12,
     "condition": "yeni",
     "location": "Astara",
-    "image": "images/powertools.png"
+    "image": "images/powertools-7.webp"
   },
   {
-    "name": "Power Tool 12",
-    "desc": "Əl zımparası, rahat və portativ.",
+    "name": "Black+Decker KR705K-QS Drel",
+    "brand": "Black & Decker",
+    "desc": "İkinci əl, lakin səliqəli şəkildə saxlanılmış.",
     "price": 16,
     "old_price": 24,
     "discount": 33,
@@ -141,11 +101,12 @@
     "review_count": 4,
     "condition": "islenmis",
     "location": "Zaqatala",
-    "image": "images/powertools.png"
+    "image": "images/powertools-8.webp"
   },
   {
-    "name": "Power Tool 13",
-    "desc": "Çoxfunksiyalı drel dəsti.",
+    "name": "Bosch GWS 750-115 Kəsici Alət",
+    "brand": "Bosch",
+    "desc": "Metal və daş kəsmə üçün ideal, 750W gücündə.",
     "price": 45,
     "old_price": 60,
     "discount": 25,
@@ -153,11 +114,12 @@
     "review_count": 11,
     "condition": "yeni",
     "location": "Şəmkir",
-    "image": "images/powertools.png"
+    "image": "images/powertools-9.webp"
   },
   {
-    "name": "Power Tool 14",
-    "desc": "Büdcə dostu elektrik vintaçan.",
+    "name": "Makita BO5030 Zımpara",
+    "brand": "Makita",
+    "desc": "Rahat və portativ model, səth cilalama üçün ideal.",
     "price": 19,
     "old_price": 27,
     "discount": 30,
@@ -165,11 +127,12 @@
     "review_count": 6,
     "condition": "islenmis",
     "location": "Lənkəran",
-    "image": "images/powertools.png"
+    "image": "images/powertools-10.webp"
   },
   {
-    "name": "Power Tool 15",
-    "desc": "Yüksək sürətli və davamlı mişar.",
+    "name": "Hilti AG 125-13S Kəsici Disk",
+    "brand": "Hilti",
+    "desc": "Sürətli və güclü fırlanma, peşəkar kəsmə üçün.",
     "price": 36,
     "old_price": 48,
     "discount": 25,
@@ -177,11 +140,12 @@
     "review_count": 8,
     "condition": "yeni",
     "location": "Gəncə",
-    "image": "images/powertools.png"
+    "image": "images/powertools-11.webp"
   },
   {
-    "name": "Power Tool 16",
-    "desc": "Kompakt ölçülü, səyahət üçün ideal.",
+    "name": "Black+Decker KA2000 Detallı Zımpara",
+    "brand": "Black & Decker",
+    "desc": "Kompakt ölçülü, detallı işlər üçün əlverişli.",
     "price": 14,
     "old_price": 22,
     "discount": 36,
@@ -189,11 +153,12 @@
     "review_count": 3,
     "condition": "islenmis",
     "location": "Şirvan",
-    "image": "images/powertools.png"
+    "image": "images/powertools-12.webp"
   },
   {
-    "name": "Power Tool 17",
-    "desc": "Drel, universal başlıqlarla birlikdə.",
+    "name": "Bosch PSB 1800 Akumulyatorlu Drel",
+    "brand": "Bosch",
+    "desc": "Akumulyatorlu, yüngül və ev istifadə üçün uyğun.",
     "price": 32,
     "old_price": 44,
     "discount": 27,
@@ -201,11 +166,12 @@
     "review_count": 9,
     "condition": "yeni",
     "location": "Qazax",
-    "image": "images/powertools.png"
+    "image": "images/powertools-13.webp"
   },
   {
-    "name": "Power Tool 18",
-    "desc": "İşlənmiş, lakin keyfiyyətli material.",
+    "name": "Makita GA5030 Kəsici Alət",
+    "brand": "Makita",
+    "desc": "Komplektli vəziyyətdə, güclü fırlanma sürəti.",
     "price": 17,
     "old_price": 26,
     "discount": 35,
@@ -213,11 +179,12 @@
     "review_count": 5,
     "condition": "islenmis",
     "location": "Balakən",
-    "image": "images/powertools.png"
+    "image": "images/powertools-14.webp"
   },
   {
-    "name": "Power Tool 19",
-    "desc": "Yeni model, rahat tutacaqla.",
+    "name": "Hilti TE 2-M Rotary Drel",
+    "brand": "Hilti",
+    "desc": "Yeni model, rahat tutacaq və güclü performans.",
     "price": 27,
     "old_price": 36,
     "discount": 25,
@@ -225,11 +192,12 @@
     "review_count": 7,
     "condition": "yeni",
     "location": "Şəki",
-    "image": "images/powertools.png"
+    "image": "images/powertools-15.webp"
   },
   {
-    "name": "Power Tool 20",
-    "desc": "Ağır işlər üçün premium model.",
+    "name": "Black+Decker CD714CRES Drel Seti",
+    "brand": "Black & Decker",
+    "desc": "Çox başlıqlı set, evdə istifadə üçün ideal.",
     "price": 55,
     "old_price": 70,
     "discount": 21,
@@ -237,6 +205,58 @@
     "review_count": 14,
     "condition": "yeni",
     "location": "Bakı",
-    "image": "images/powertools.png"
+    "image": "images/powertools-16.webp"
+  },
+  {
+    "name": "Bosch GSB 120-LI 12V",
+    "brand": "Bosch",
+    "desc": "Kompakt və güclü, tez doldurulan akkumulyatorla.",
+    "price": 29,
+    "old_price": 39,
+    "discount": 26,
+    "rating": 4.3,
+    "review_count": 7,
+    "condition": "yeni",
+    "location": "Tovuz",
+    "image": "images/powertools-17.webp"
+  },
+  {
+    "name": "Makita TD110DWAE Vintaçan",
+    "brand": "Makita",
+    "desc": "18V güclü vintaçan, yeni və istifadəyə hazır.",
+    "price": 31,
+    "old_price": 42,
+    "discount": 26,
+    "rating": 4.5,
+    "review_count": 8,
+    "condition": "yeni",
+    "location": "Quba",
+    "image": "images/powertools-18.webp"
+  },
+  {
+    "name": "Hilti PR 2-HS Dözümlü Lazer Aləti",
+    "brand": "Hilti",
+    "desc": "Tikinti üçün ideal lazer ölçü cihazı.",
+    "price": 58,
+    "old_price": 75,
+    "discount": 23,
+    "rating": 4.8,
+    "review_count": 11,
+    "condition": "yeni",
+    "location": "Mingəçevir",
+    "image": "images/powertools-19.webp"
+  },
+  {
+    "name": "Black+Decker BDCROS18 Zımpara",
+    "brand": "Black & Decker",
+    "desc": "18V akkumulyatorlu zımpara, rahat və effektiv.",
+    "price": 34,
+    "old_price": 45,
+    "discount": 24,
+    "rating": 4.4,
+    "review_count": 10,
+    "condition": "yeni",
+    "location": "Naxçıvan",
+    "image": "images/powertools-20.webp"
   }
 ]

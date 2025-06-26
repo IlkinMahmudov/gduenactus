@@ -3,6 +3,9 @@ body {
   padding: 20px;
   font-family: 'Segoe UI', sans-serif;
  background-color: #DFDFDF;
+   
+  scroll-behavior: smooth;
+
 }
 
 .all-sec {
@@ -13,9 +16,9 @@ body {
 
  /* Ümumi header dizaynı */
 .main-header {
- 
+  /* Bu hissəni dəyişmirik, çünki main-header-in yalnız bir övladı var */
+  /* display: flex;  ehtiyac yoxdur əgər header-container max-width ilə mərkəzləşibsə */
   padding: 12px 0;
-
 }
 
 /* Flex konteyner */
@@ -23,11 +26,11 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
-  display: flex;
+  display: flex; /* Flex konteyner buradadır */
   align-items: center;
-  justify-content: space-between;
   flex-wrap: wrap;
   gap: 16px;
+  justify-content: space-between; /* Bu xüsusiyyəti buraya əlavə edin */
 }
 
 /* Logo */
@@ -38,22 +41,55 @@ height: 150px;
 }
 
 /* Axtarış qutusu */
+
+/* Axtarış qutusu */
 .search-box {
   flex: 1;
   position: relative;
   max-width: 500px;
+  display: flex;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 2px solid purple;
 }
 
 .search-box input {
   width: 100%;
   padding: 10px 14px;
   font-size: 15px;
-  border-radius: 8px;
   border: none;
   outline: none;
+  border-radius: 0;
+}
+
+.search-button {
+  background-color: #8a2be2;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+  font-size: 15px;
+  flex-shrink: 0;
+}
+
+.clear-search-icon {
+  position: absolute;
+  right: 80px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  cursor: pointer;
+  color: #888;
+  padding: 0 5px;
+  z-index: 2;
 }
 
 /* Axtarış nəticələri */
+.hidden {
+  display: none !important;
+}
+
 .search-results {
   display: none;
   position: absolute;
@@ -64,10 +100,22 @@ height: 150px;
   border-radius: 6px;
   box-shadow: 0 3px 10px rgba(0,0,0,0.15);
   max-height: 250px;
+  
   overflow-y: auto;
   z-index: 999;
 }
 
+.contact-about{
+  margin-left: 100px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.contact-about a{
+  text-decoration: none;
+  color: inherit;
+}
 .search-results div {
   padding: 10px 14px;
   border-bottom: 1px solid #eee;

@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,222 +7,143 @@
  <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-  <!-- Header Section -->
-  <header class="header">
-    <div class="nav">
-      <div class="nav-left">
-        <img src="images/hd-icon.png" alt="header-icon">
-        <strong>Sharling</strong>
-      </div> 
-   <div class="nav-right">
-  <a href="#about">About</a>
-  <a href="#contact">Contact</a>
+  <header class="main-header">
+  <div class="header-container">
+    <div class="logo">
+      <a href="index.html">
+        <img src="images/header-icon.jpeg" alt="Sharling">
+      </a>
+    </div>
+
+   <div class="search-box">
+  <input type="text" id="searchInput" placeholder="Məhsul axtar...">
+  <button id="searchButton" class="search-button">Axtar</button>
+  <span id="clearSearch" class="clear-search-icon hidden">&times;</span>
+  <div id="searchResults" class="search-results"></div>
 </div>
 
+    <div class="contact-about">
+      <a href="#about">Haqqımızda</a> <a href="#contact">Bizimlə əlaqə</a> </div>
+    <div class="catalog-dropdown">
+      <button class="catalog-toggle"> Məhsul kataloqu</button>
+      <div class="catalog-menu"></div>
     </div>
-
-    <div class="hero">
-      <h1>Rent Items with Ease,<br>Browse our wide range of rental items</h1>
-      <p></p>
-      <button class="button-primary">Get Started</button>
-    </div>
+  </div>
+</header>
 
 
-    
-  </header>
-
-  <!-- Main Container -->
   <main class="container">
 
-    <!-- Filter Section -->
     <div class="filters">
-      <button class="filter-button active" data-category="all">All</button>
-      <button class="filter-button" data-category="appliances">Appliances</button>
-      <button class="filter-button" data-category="furniture">Furniture</button>
-      <button class="filter-button" data-category="electronics">Electronics</button>
-    </div>
+      <button class="filter-button active" data-category="all">Hamısı</button> <button class="filter-button" data-category="appliances">Məişət Texnikası</button> <button class="filter-button" data-category="furniture">Mebel</button> <button class="filter-button" data-category="electronics">Elektronika</button> <button class="filter-button" data-category="powertools">Elektrik Alətləri</button> <button class="filter-button" data-category="wardrobes">Dolablar</button> </div>
 
-<!-- Cards Grid -->
 <div class="grid">
-  <!-- Appliances -->
-<!-- Appliances -->
-<div class="card show" data-category="appliances" data-name="washing-machines">
-  <img src="images/machine.png" alt="machine-icon">
-  <p>Washing Machines</p>
+  <div class="card show" data-category="appliances" data-name="washing-machines">
+  <img src="images/machine.png" alt="Paltaryuyan maşın">
+  <p>Paltaryuyan Maşınlar</p>
 </div>
 
 <div class="card show" data-category="appliances" data-name="blenders">
-  <img src="images/blender.png" alt="blender">
-  <p>Blenders</p>
+  <img src="images/blender.png" alt="Blender">
+  <p>Blenderlər</p>
 </div>
 
 <div class="card show" data-category="appliances" data-name="refrigerators">
-  <img src="images/refrigenators.webp" alt="refrigerator">
-  <p>Refrigerators</p>
+  <img src="images/refrigenators.webp" alt="Soyuducu">
+  <p>Soyuducular</p>
 </div>
 
 <div class="card show" data-category="appliances" data-name="microwaves">
-  <img src="images/microwave.png" alt="microwave">
-  <p>Microwaves</p>
+  <img src="images/microwave.png" alt="Mikrodalğalı soba">
+  <p>Mikrodalğalı Sobalar</p>
 </div>
 
-<!-- Electronics -->
-<div class="card show" data-category="electronics" data-name="drones">
-  <img src="images/drone.png" alt="drone">
-  <p>Drones</p>
+<div class="card show" data-category="electronics" data-name="drones"> <img src="images/drone.png" alt="Drone">
+  <p>Dronlar</p>
 </div>
 
 <div class="card show" data-category="electronics" data-name="laptops">
-  <img src="images/laptop.png" alt="laptop">
-  <p>Laptops</p>
+  <img src="images/laptop.png" alt="Noutbuk">
+  <p>Noutbuklar</p>
 </div>
 
-<div class="card show" data-category="electronics" data-name="powertools">
-  <img src="images/powertools.png" alt="powertools">
-  <p>Power Tools</p>
+<div class="card show" data-category="powertools" data-name="powertools">
+  <img src="images/powertools.png" alt="Elektrik Alətləri">
+  <p>Elektrik Alətləri</p>
 </div>
 
 <div class="card show" data-category="electronics" data-name="cameras">
-  <img src="images/cameras.png" alt="camera">
-  <p>Cameras</p>
+  <img src="images/cameras.png" alt="Kamera">
+  <p>Kameralar</p>
 </div>
 
-<!-- Furniture -->
 <div class="card show" data-category="furniture" data-name="beds">
-  <img src="images/bed.png" alt="bed">
-  <p>Beds</p>
+  <img src="images/bed.png" alt="Çarpayı">
+  <p>Çarpayılar</p>
 </div>
 
 <div class="card show" data-category="furniture" data-name="chairs">
-  <img src="images/chair.png" alt="chair">
-  <p>Chairs</p>
+  <img src="images/chair.png" alt="Oturacaq">
+  <p>Oturacaqlar</p>
 </div>
 
 <div class="card show" data-category="furniture" data-name="sofas">
-  <img src="images/sofa.png" alt="sofa">
-  <p>Sofas</p>
+  <img src="images/sofa.png" alt="Divan">
+  <p>Divanlar</p>
 </div>
 
-<div class="card show" data-category="furniture" data-name="wardrobes">
-  <img src="images/wardrobes.png" alt="wardrobe">
-  <p>Wardrobes</p>
+<div class="card show" data-category="furniture" data-name="wardrobes"> <img src="images/wardrobes.png" alt="Dolab">
+  <p>Dolablar</p>
 </div>
-
-
-  <!-- Furniture -->
-
-
 
 </div>
 
 <div class="sec-1">
   <div class="section-grid">
-
-  </div>
-
-
+    </div>
 </div>
 
 <section id="about" class="about-section">
-  <h2>About Us</h2>
-  <div class="about-content">
-    <img src="images/about-us.png" alt="About Image" class="about-img">
+  <h2>Haqqımızda</h2> <div class="about-content">
+    <img src="images/about-us.png" alt="Haqqımızda Şəkli" class="about-img">
     <p>
-      Welcome to <strong>Rentify</strong> — your one-stop platform for renting high-quality items with unmatched convenience. 
-      Founded with a mission to simplify everyday living, Rentify connects people with affordable access to household 
-      essentials, electronics, furniture, and more, without the burden of ownership.
+      <strong>Rentify</strong>-a xoş gəlmisiniz — keyfiyyətli əşyaları misilsiz rahatlıqla kirayə vermək üçün vahid platformanız.
+      Gündəlik həyatı sadələşdirmək missiyası ilə qurulan Rentify, insanları məişət əşyalarına, elektronikaya, mebelə və s.
+      sahiblik yükü olmadan əlverişli şəkildə kirayə götürməyə imkan verir.
       <br><br>
-      Whether you're a student needing a temporary laptop, a homeowner looking to rent tools, or a business equipping 
-      a short-term space — we have a solution for you. With a user-friendly interface, secure booking, flexible rental 
-      terms, and real-time support, Rentify ensures that the rental experience is as smooth as owning.
+      İstər müvəqqəti noutbuka ehtiyacı olan bir tələbə, istər alət kirayə etmək istəyən bir ev sahibi, istərsə də qısa müddətli bir məkanı təchiz edən bir biznes —
+      bizdə sizin üçün bir həll var. İstifadəçi dostu interfeysi, təhlükəsiz sifariş, çevik kirayə şərtləri və real vaxt dəstəyi ilə Rentify,
+      kirayə təcrübəsinin sahiblik qədər rahat olmasını təmin edir.
       <br><br>
-      Our team is committed to sustainable practices by encouraging the reuse of valuable products, minimizing waste, 
-      and empowering communities to share more, buy less. Thousands of satisfied users trust Rentify for their day-to-day 
-      and special occasion needs.
+      Komandamız dəyərli məhsulların təkrar istifadəsini təşviq etməklə, tullantıları minimuma endirməklə
+      və icmaları daha çox paylaşmağa, daha az almağa təşviq etməklə davamlı təcrübələrə sadiqdir.
+      Minlərlə məmnun istifadəçi gündəlik və xüsusi tədbirlər üçün Rentify-a etibar edir.
     </p>
   </div>
 </section>
 
 <section id="contact" class="contact-section">
-  <h2>Contact Us</h2>
-  <div class="contact-content">
-    <img src="images/contact.png" alt="Contact Image" class="contact-img">
+  <h2>Bizimlə Əlaqə</h2> <div class="contact-content">
+    <img src="images/contact.png" alt="Əlaqə Şəkli" class="contact-img">
     <p>
-      We'd love to hear from you! At <strong>Rentify</strong>, we believe open communication is the foundation of trust. 
-      Whether you have questions about our rental process, need help with an existing booking, or want to give feedback — 
-      our support team is ready to assist you.
+      Sizdən xəbər almaqdan məmnunuq! <strong>Rentify</strong>-da açıq ünsiyyətin etibarın təməli olduğuna inanırıq.
+      İstər kirayə prosesimizlə bağlı suallarınız olsun, istər mövcud bir sifarişdə köməyə ehtiyacınız olsun,
+      istərsə də rəy bildirmək istəyin — dəstək komandamız sizə kömək etməyə hazırdır.
       <br><br>
-      Reach out to us any time via email at <strong>gduenactus@gmail.com</strong>. You can also connect with us on social 
-      media platforms like Instagram, Facebook, and Twitter for updates, offers, and news.
+      İstənilən vaxt **gduenactus@gmail.com** elektron poçt ünvanı vasitəsilə bizimlə əlaqə saxlayın.
+      Yeniliklər, təkliflər və xəbərlər üçün Instagram, Facebook və Twitter kimi sosial media platformalarında da
+      bizimlə əlaqə saxlaya bilərsiniz.
       <br><br>
-      If you're a business or partner interested in collaboration, feel free to get in touch through our partnership page. 
-      We’re constantly growing and would love to explore opportunities to work together.
+      Əgər əməkdaşlıqda maraqlı olan bir biznes və ya tərəfdaşsınızsa, tərəfdaşlıq səhifəmiz vasitəsilə
+      əlaqə saxlamaqdan çəkinməyin. Biz daim böyüyürük və birlikdə işləmək imkanlarını araşdırmağa hazırıq.
       <br><br>
-      Your satisfaction is our number one priority, and we aim to respond to all inquiries within 24 hours.
+      Sizin məmnuniyyətiniz bizim bir nömrəli prioritetimizdir və bütün sorğulara 24 saat ərzində cavab verməyi hədəfləyirik.
     </p>
   </div>
 </section>
 
 
-
   </main>
-
-<script>
-  const filterButtons = document.querySelectorAll('.filter-button');
-  const cards = document.querySelectorAll('.card');
-
-  // Filterlər üçün
-  filterButtons.forEach(button => {
-    button.addEventListener('click', () => {
-      filterButtons.forEach(btn => btn.classList.remove('active'));
-      button.classList.add('active');
-      const category = button.getAttribute('data-category');
-
-      cards.forEach(card => {
-        card.classList.toggle('show', category === 'all' || card.getAttribute('data-category') === category);
-      });
-    });
-  });
-
-  // Kart klikləri üçün YÖNLƏNDİRMƏ
-  cards.forEach(card => {
-    card.addEventListener("click", () => {
-      const category = card.getAttribute("data-category");
-      const name = card.getAttribute("data-name");
-      window.location.href = `card.html?category=${category}&name=${name}`;
-    });
-  });
-  document.addEventListener("DOMContentLoaded", () => {
-  const categories = [
-    { name: "blenders", label: "🥤 Blenderlər" },
-    { name: "washing-machines", label: "🌀 Paltaryuyanlar" },
-    { name: "microwaves", label: "🍲 Mikrodalğalı sobalar" },
-    { name: "refrigerators", label: "🧊 Soyuducular" },
-    { name: "laptops", label: "💻 Noutbuklar" },
-    { name: "cameras", label: "📸 Kameralar" },
-    { name: "sofas", label: "🛋️ Divanlar" },
-    { name: "chairs", label: "🪑 Oturacaqlar" },
-    { name: "beds", label: "🛏️ Çarpayılar" },
-    { name: "wardrobes", label: "🚪 Dolablar" },
-    { name: "powertools", label: "🔧 Elektrik alətləri" },
-    { name: "electronics", label: "📱 Elektronika" },
-    { name: "drones", label: "🛩️ Dronlar" }
-  ];
-
-  const menuContainer = document.querySelector(".catalog-menu");
-  if (!menuContainer) return;
-
-  categories.forEach(cat => {
-    const a = document.createElement("a");
-    a.href = `card.html?category=appliances&name=${cat.name}`;
-    a.textContent = cat.label;
-    a.className = "catalog-item";
-    menuContainer.appendChild(a);
-  });
-});
-
-</script>
-
+<script src="js/index.js"></script>
 </body>
-
 </html>

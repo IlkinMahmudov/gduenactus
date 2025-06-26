@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/card.css">
   <script src="js/card.js" defer></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
  <!-- Header -->
@@ -17,13 +18,19 @@
       </a>
     </div>
 
-    <div class="search-box">
-      <input type="text" id="searchInput" placeholder="Məhsul axtar...">
-      <div id="searchResults" class="search-results"></div>
-    </div>
+   <div class="search-box">
+  <input type="text" id="searchInput" placeholder="Məhsul axtar...">
+  <button id="searchButton" class="search-button">Axtar</button>
+  <span id="clearSearch" class="clear-search-icon hidden">&times;</span>
+  <div id="searchResults" class="search-results"></div>
+</div>
 
+    <div class="contact-about">
+      <a href="#about-us">Haqqımızda</a>
+      <a href="#contact-us">Bizimlə əlaqə</a>
+    </div>
     <div class="catalog-dropdown">
-      <button class="catalog-toggle">📂 Məhsul kataloqu</button>
+      <button class="catalog-toggle"> Məhsul kataloqu</button>
       <div class="catalog-menu"></div>
     </div>
   </div>
@@ -58,19 +65,50 @@
               </div>
             </div>
 
-            <div class="filter-group">
-              <label class="filter-label">Brend</label>
-              <div class="brand-checkboxes" id="brand-filter">
-                <label><input type="checkbox" name="brand" value="Samsung"> Samsung</label>
-                <label><input type="checkbox" name="brand" value="LG"> LG</label>
-                <label><input type="checkbox" name="brand" value="Bosch"> Bosch</label>
-                <label><input type="checkbox" name="brand" value="Artel"> Artel</label>
-              </div>
-              <div class="brand-checkboxes hidden" id="bed-brand-filter">
-                <label><input type="checkbox" name="brand" value="IKEA"> IKEA</label>
-                <label><input type="checkbox" name="brand" value="Bellona"> Bellona</label>
-              </div>
-            </div>
+  <div class="filter-group">
+    <label class="filter-label">Brend</label>
+
+    <!-- Texniki cihazlar üçün -->
+    <div class="brand-checkboxes" id="brand-filter">
+      <label><input type="checkbox" name="brand" value="Samsung"> Samsung</label>
+      <label><input type="checkbox" name="brand" value="LG"> LG</label>
+      <label><input type="checkbox" name="brand" value="Bosch"> Bosch</label>
+      <label><input type="checkbox" name="brand" value="Artel"> Artel</label>
+    </div>
+
+    <!-- Mebel üçün -->
+    <div class="brand-checkboxes hidden" id="bed-brand-filter">
+      <label><input type="checkbox" name="brand" value="IKEA"> IKEA</label>
+      <label><input type="checkbox" name="brand" value="Bellona"> Bellona</label>
+      <label><input type="checkbox" name="brand" value="Yataş Bedding"> Yataş Bedding</label>
+      <label><input type="checkbox" name="brand" value="Doğtaş"> Doğtaş</label>
+    </div>
+
+    <!-- Laptoplar üçün -->
+    <div class="brand-checkboxes hidden" id="laptop-brand-filter">
+      <label><input type="checkbox" name="brand" value="Lenovo"> Lenovo</label>
+      <label><input type="checkbox" name="brand" value="MSI"> MSI</label>
+      <label><input type="checkbox" name="brand" value="Huawei"> Huawei</label>
+      <label><input type="checkbox" name="brand" value="MacBook"> MacBook</label>
+    </div>
+
+        <div class="brand-checkboxes hidden" id="powertools-brand-filter">
+      <label><input type="checkbox" name="brand" value="Bosch"> Bosch </label>
+      <label><input type="checkbox" name="brand" value="Makita"> Makita</label>
+      <label><input type="checkbox" name="brand" value="Hilti"> Hilti</label>
+      <label><input type="checkbox" name="brand" value="Black & Decker"> Black & Decker</label>
+    </div>
+
+         <div class="brand-checkboxes hidden" id="wardrobes-brand-filter">
+      <label><input type="checkbox" name="brand" value="Evim"> Evim </label>
+      <label><input type="checkbox" name="brand" value="Embawood"> Embawood</label>
+      <label><input type="checkbox" name="brand" value="Bellona "> Bellona </label>
+      <label><input type="checkbox" name="brand" value="Saloglu"> Saloglu</label>
+    </div>
+
+    
+  </div>
+
 
             <div class="filter-group">
               <label for="sortBy" class="filter-label">Əvvəlcə:</label>
