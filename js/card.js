@@ -34,6 +34,11 @@ function renderProducts(products) {
           <span class="rating">⭐ ${p.rating} (${p.review_count})</span>
           <span>${p.location}</span>
         </div>
+     <div class="bottom-line"></div>
+        <div class="get-product">
+        <i class="fa-solid fa-cart-shopping"></i> 
+        <button type="submit">İcarəyə götür</button>
+        </div>
       </div>
     `;
 
@@ -316,3 +321,17 @@ document.addEventListener('DOMContentLoaded', () => {
     console.log("Axtar düyməsinə basıldı.");
   });
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+  const burger = document.getElementById("burger");
+  const mobileMenu = document.getElementById("mobileMenu");
+
+  burger.addEventListener("click", function() {
+    mobileMenu.classList.toggle("active");
+  });
+});
+
+const close_menu = document.getElementById("close-menu")
+close_menu.addEventListener("click", ()=>{
+    mobileMenu.classList.remove("active");
+})

@@ -1,8 +1,8 @@
 [
   {
-    "name": "Ikea Rahat Süni Dəri Divan",
-    "desc": "3 nəfərlik rahat divan, süni dəri örtüklü.",
-    "price": 1000,
+    "name": "Ikea Rahat Süni Dəri Divan (İcarə)",
+    "desc": "Gündəlik və ya həftəlik icarə üçün 3 nəfərlik rahat divan, süni dəri örtüklü.",
+    "price": 30,
     "discount": 0,
     "rating": 4.5,
     "review_count": 10,
@@ -13,11 +13,11 @@
     "brand": "Ikea"
   },
   {
-    "name": "Bellona Klassik İkili Divan",
-    "desc": "İkili klassik divan, taxta ayaqlı.",
-    "price": 750,
-    "old_price": 1170,
-    "discount": 36,
+    "name": "Bellona Klassik İkili Divan (İcarə)",
+    "desc": "Klassik ikili divan, gündəlik icarə üçün uyğundur.",
+    "price": 25,
+    "old_price": 40,
+    "discount": 38,
     "rating": 4.2,
     "review_count": 8,
     "condition": "islenmis",
@@ -27,9 +27,9 @@
     "brand": "Bellona"
   },
   {
-    "name": "Yataş Bedding Künc Yataq Divanı",
-    "desc": "Böyük künc divan, yataq funksiyası ilə.",
-    "price": 1330,
+    "name": "Yataş Bedding Künc Yataq Divanı (İcarə)",
+    "desc": "Künc divan, qonaqlar və tədbirlər üçün gündəlik icarə.",
+    "price": 40,
     "discount": 0,
     "rating": 4.6,
     "review_count": 12,
@@ -40,9 +40,9 @@
     "brand": "Yataş Bedding"
   },
   {
-    "name": "Doğtaş Minimalist Kreslo",
-    "desc": "Tək nəfərlik minimalist dizaynlı kreslo.",
-    "price": 400,
+    "name": "Doğtaş Minimalist Kreslo (İcarə)",
+    "desc": "Tək nəfərlik kreslo, icarəlik tədbirlər və sərgilər üçün.",
+    "price": 15,
     "discount": 0,
     "rating": 4.0,
     "review_count": 5,
@@ -53,11 +53,11 @@
     "brand": "Doğtaş"
   },
   {
-    "name": "Ikea Parça Örtüklü Açılan Divan",
-    "desc": "Yataq kimi açılan divan, parça örtüklü.",
-    "price": 915,
-    "old_price": 1360,
-    "discount": 31,
+    "name": "Ikea Açılan Divan (İcarə)",
+    "desc": "Yataq funksiyalı açılan divan, qonaq icarəsi üçün.",
+    "price": 30,
+    "old_price": 45,
+    "discount": 33,
     "rating": 4.3,
     "review_count": 9,
     "condition": "yeni",
@@ -67,9 +67,9 @@
     "brand": "Ikea"
   },
   {
-    "name": "Bellona Premium Qonaq Otağı Divanı",
-    "desc": "Qonaq otağı üçün premium model.",
-    "price": 1250,
+    "name": "Bellona Premium Qonaq Divanı (İcarə)",
+    "desc": "Qonaq otaqları və ofis tədbirləri üçün icarəlik premium divan.",
+    "price": 35,
     "discount": 0,
     "rating": 4.7,
     "review_count": 11,
@@ -80,11 +80,11 @@
     "brand": "Bellona"
   },
   {
-    "name": "Yataş Bedding Uşaq Otağı Divanı",
-    "desc": "Uşaq otağı üçün kiçik divan.",
-    "price": 500,
-    "old_price": 830,
-    "discount": 40,
+    "name": "Yataş Bedding Uşaq Divanı (İcarə)",
+    "desc": "Uşaq tədbirləri və qısa müddətli istifadə üçün divan.",
+    "price": 20,
+    "old_price": 33,
+    "discount": 39,
     "rating": 4.1,
     "review_count": 6,
     "condition": "islenmis",
@@ -94,9 +94,9 @@
     "brand": "Yataş Bedding"
   },
   {
-    "name": "Doğtaş Taxta Karkaslı Divan",
-    "desc": "Taxta karkaslı divan, rahat oturacaq.",
-    "price": 830,
+    "name": "Doğtaş Taxta Karkaslı Divan (İcarə)",
+    "desc": "Tədbir və fotosessiyalar üçün taxta karkaslı icarəlik divan.",
+    "price": 28,
     "discount": 0,
     "rating": 4.2,
     "review_count": 7,
@@ -107,9 +107,9 @@
     "brand": "Doğtaş"
   },
   {
-    "name": "Ikea Retro Klassik Divan",
-    "desc": "Retro dizaynlı klassik model.",
-    "price": 790,
+    "name": "Ikea Retro Divan (İcarə)",
+    "desc": "Retro stil tədbirləri və çəkilişlər üçün icarə.",
+    "price": 25,
     "discount": 0,
     "rating": 4.0,
     "review_count": 6,
@@ -120,9 +120,9 @@
     "brand": "Ikea"
   },
   {
-    "name": "Bellona Sadə Gündəlik Divan",
-    "desc": "Sadə dizaynlı, gündəlik istifadə üçün.",
-    "price": 670,
+    "name": "Bellona Gündəlik İcarə Divanı",
+    "desc": "Gündəlik istifadə və icarə üçün rahat model.",
+    "price": 22,
     "discount": 0,
     "rating": 4.1,
     "review_count": 5,
@@ -133,11 +133,11 @@
     "brand": "Bellona"
   },
   {
-    "name": "Yataş Bedding Yumşaq Komfortlu Divan",
-    "desc": "Yumşaq və komfortlu divan.",
-    "price": 1080,
-    "old_price": 1580,
-    "discount": 32,
+    "name": "Yataş Yumşaq Komfort Divan (İcarə)",
+    "desc": "Yumşaq və komfortlu, tədbir və qonaq icarəsi üçün.",
+    "price": 32,
+    "old_price": 47,
+    "discount": 31,
     "rating": 4.5,
     "review_count": 8,
     "condition": "yeni",
@@ -147,9 +147,9 @@
     "brand": "Yataş Bedding"
   },
   {
-    "name": "Doğtaş Dəri Örtüklü Asan Təmizlənən Divan",
-    "desc": "Dəri örtüklü, asan təmizlənən model.",
-    "price": 1165,
+    "name": "Doğtaş Asan Təmizlənən Divan (İcarə)",
+    "desc": "Asan təmizlənən dəri örtüklü icarəlik model.",
+    "price": 30,
     "discount": 0,
     "rating": 4.4,
     "review_count": 7,
@@ -160,9 +160,9 @@
     "brand": "Doğtaş"
   },
   {
-    "name": "Ikea Dəyişdirilə Bilən Örtüklü Divan",
-    "desc": "Dəyişdirilə bilən örtüklərlə.",
-    "price": 960,
+    "name": "Ikea Örtüklü Divan (İcarə)",
+    "desc": "Dəyişdirilə bilən örtüklərlə icarəlik divan.",
+    "price": 27,
     "discount": 0,
     "rating": 4.3,
     "review_count": 6,
@@ -173,9 +173,9 @@
     "brand": "Ikea"
   },
   {
-    "name": "Bellona Kreslo ilə Dəst Divan",
-    "desc": "Kreslo ilə birgə dəst.",
-    "price": 1500,
+    "name": "Bellona Dəst Divan + Kreslo (İcarə)",
+    "desc": "Kreslo ilə birlikdə dəst olaraq icarə.",
+    "price": 38,
     "discount": 0,
     "rating": 4.6,
     "review_count": 9,
@@ -186,11 +186,11 @@
     "brand": "Bellona"
   },
   {
-    "name": "Yataş Bedding Parlaq Müasir Divan",
-    "desc": "Parlaq rəngli müasir dizayn.",
-    "price": 875,
-    "old_price": 1250,
-    "discount": 31,
+    "name": "Yataş Parlaq Divan (İcarə)",
+    "desc": "Parlaq rəngli, fotosessiyalar və tədbirlər üçün icarə.",
+    "price": 28,
+    "old_price": 40,
+    "discount": 30,
     "rating": 4.2,
     "review_count": 6,
     "condition": "islenmis",
@@ -200,11 +200,11 @@
     "brand": "Yataş Bedding"
   },
   {
-    "name": "Doğtaş Divan + Yastıq Hədiyyə",
-    "desc": "Divan + 2 yastıq hədiyyə.",
-    "price": 1125,
-    "old_price": 1580,
-    "discount": 29,
+    "name": "Doğtaş Divan + Yastıq Hədiyyə (İcarə)",
+    "desc": "2 yastıqla birgə icarə üçün təklif.",
+    "price": 35,
+    "old_price": 50,
+    "discount": 30,
     "rating": 4.4,
     "review_count": 8,
     "condition": "yeni",
@@ -214,9 +214,9 @@
     "brand": "Doğtaş"
   },
   {
-    "name": "Ikea Yataq kimi İstifadə Olunan Divan",
-    "desc": "Yataq kimi də istifadə edilə bilər.",
-    "price": 1040,
+    "name": "Ikea Yataq Tipli Divan (İcarə)",
+    "desc": "Yataq funksiyalı, qonaq icarəsi üçün.",
+    "price": 30,
     "discount": 0,
     "rating": 4.3,
     "review_count": 7,
@@ -227,9 +227,9 @@
     "brand": "Ikea"
   },
   {
-    "name": "Bellona Möhkəm Karkaslı Divan",
-    "desc": "Möhkəm və dayanıqlı karkas.",
-    "price": 915,
+    "name": "Bellona Möhkəm Divan (İcarə)",
+    "desc": "Möhkəm və dayanıqlı divan icarəlik.",
+    "price": 28,
     "discount": 0,
     "rating": 4.2,
     "review_count": 6,
@@ -240,9 +240,9 @@
     "brand": "Bellona"
   },
   {
-    "name": "Yataş Bedding Ofis üçün Rahat Divan",
-    "desc": "Ofis üçün rahat divan modeli.",
-    "price": 830,
+    "name": "Yataş Ofis Divanı (İcarə)",
+    "desc": "Ofislər və görüş otaqları üçün icarəlik rahat divan.",
+    "price": 25,
     "discount": 0,
     "rating": 4.1,
     "review_count": 5,
@@ -253,11 +253,11 @@
     "brand": "Yataş Bedding"
   },
   {
-    "name": "Doğtaş Premium Dəri Klassik Divan",
-    "desc": "Premium dəri örtük, klassik dizayn.",
-    "price": 1665,
-    "old_price": 2335,
-    "discount": 29,
+    "name": "Doğtaş Premium Dəri Divan (İcarə)",
+    "desc": "Premium dəri klassik dizayn, tədbirlər üçün icarə.",
+    "price": 45,
+    "old_price": 65,
+    "discount": 30,
     "rating": 4.7,
     "review_count": 10,
     "condition": "yeni",

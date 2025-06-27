@@ -27,6 +27,20 @@
     });
   }
 
+document.addEventListener("DOMContentLoaded", function() {
+  const burger = document.getElementById("burger");
+  const mobileMenu = document.getElementById("mobileMenu");
+
+  burger.addEventListener("click", function() {
+    mobileMenu.classList.toggle("active");
+  });
+});
+
+const close_menu = document.getElementById("close-menu")
+close_menu.addEventListener("click", ()=>{
+    mobileMenu.classList.remove("active");
+})
+
   document.addEventListener("DOMContentLoaded", () => {
    
     setupCatalogMenu();

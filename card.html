@@ -12,30 +12,55 @@
  <!-- Header -->
 <header class="main-header">
   <div class="header-container">
+
+    <!-- Logo -->
     <div class="logo">
       <a href="index.html">
         <img src="images/header-icon.jpeg" alt="Sharling">
       </a>
     </div>
 
-   <div class="search-box">
-  <input type="text" id="searchInput" placeholder="Məhsul axtar...">
-  <button id="searchButton" class="search-button">Axtar</button>
-  <span id="clearSearch" class="clear-search-icon hidden">&times;</span>
-  <div id="searchResults" class="search-results"></div>
-</div>
+    <!-- Axtarış Qutusu -->
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="Məhsul axtar...">
+      <button id="searchButton" class="search-button">Axtar</button>
+      <span id="clearSearch" class="clear-search-icon hidden">&times;</span>
+      <div id="searchResults" class="search-results"></div>
+    </div>
 
+ 
     <div class="contact-about">
-      <a href="#about-us">Haqqımızda</a>
-      <a href="#contact-us">Bizimlə əlaqə</a>
-    </div>
-    <div class="catalog-dropdown">
-      <button class="catalog-toggle"> Məhsul kataloqu</button>
-      <div class="catalog-menu"></div>
-    </div>
-  </div>
-</header>
+      <a href="#about">Haqqımızda</a>
+      <a href="#contact">Bizimlə əlaqə</a>
 
+      <div class="catalog-dropdown">
+        <button class="catalog-toggle"> Məhsul kataloqu</button>
+        <div class="catalog-menu"></div>
+      </div>
+    </div>
+
+    <!-- Burger Menu İkonu -->
+    <div class="burger" id="burger">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+
+  </div>
+
+ 
+  <!-- Mobile Menü -->
+  <nav class="mobile-menu" id="mobileMenu">
+     <i class="fa-solid fa-xmark" id="close-menu"></i>
+    <ul>
+      <li><a href="#about">Haqqımızda</a></li>
+      <li><a href="#contact">Bizimlə əlaqə</a></li>
+    </ul>
+
+
+  </nav>
+
+</header>
 
   <!-- Main content -->
   <div class="container">
@@ -107,6 +132,7 @@
     </div>
 
     
+   
   </div>
 
 

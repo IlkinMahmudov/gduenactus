@@ -23,6 +23,70 @@ img {
 .main-header {
   padding: 12px 0;
 }
+/* Normal görünüş */
+.burger {
+  display: none;
+  cursor: pointer;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  border-radius: 2px;
+}
+
+/* Mobile Menu gizli halda */
+.mobile-menu {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transform: translateY(-200%);
+  transition: transform 0.3s ease-in-out;
+  z-index: 1000;
+}
+.mobile-menu i{
+  position: absolute;
+  right: 30px;
+  font-size: 30px;
+}
+.mobile-menu ul {
+  list-style: none;
+  padding: 10px 0;
+  margin: 0;
+}
+
+.mobile-menu li {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.mobile-menu li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Açıq halda */
+.mobile-menu.active {
+  transform: translateY(0);
+}
+
+/* Responsive: burger görünməyə başlayır */
+@media (max-width:1200px) {
+  .burger {
+    display: flex;
+  }
+
+  .search-box {
+    width: 100%;
+  }
+}
 
 /* Flex konteyner */
 .header-container {
@@ -586,6 +650,10 @@ img {
 
   .grid {
     gap: 40px;
+  }
+
+  .contact-about{
+    display: none;
   }
 
   .about-content,

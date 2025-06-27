@@ -5,30 +5,60 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Sharling- Rent Items with Ease</title>
  <link rel="stylesheet" href="css/index.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
-  <header class="main-header">
+<header class="main-header">
   <div class="header-container">
+
+    <!-- Logo -->
     <div class="logo">
       <a href="index.html">
         <img src="images/header-icon.jpeg" alt="Sharling">
       </a>
     </div>
 
-   <div class="search-box">
-  <input type="text" id="searchInput" placeholder="Məhsul axtar...">
-  <button id="searchButton" class="search-button">Axtar</button>
-  <span id="clearSearch" class="clear-search-icon hidden">&times;</span>
-  <div id="searchResults" class="search-results"></div>
-</div>
-
-    <div class="contact-about">
-      <a href="#about">Haqqımızda</a> <a href="#contact">Bizimlə əlaqə</a> </div>
-    <div class="catalog-dropdown">
-      <button class="catalog-toggle"> Məhsul kataloqu</button>
-      <div class="catalog-menu"></div>
+    <!-- Axtarış Qutusu -->
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="Məhsul axtar...">
+      <button id="searchButton" class="search-button">Axtar</button>
+      <span id="clearSearch" class="clear-search-icon hidden">&times;</span>
+      <div id="searchResults" class="search-results"></div>
     </div>
+
+    <!-- Əlaqə və Haqqımızda + Desktop Kataloq -->
+    <div class="contact-about">
+      <a href="#about">Haqqımızda</a>
+      <a href="#contact">Bizimlə əlaqə</a>
+
+      <div class="catalog-dropdown">
+        <button class="catalog-toggle"> Məhsul kataloqu</button>
+        <div class="catalog-menu"></div>
+      </div>
+    </div>
+
+    <!-- Burger Menu İkonu -->
+    <div class="burger" id="burger">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+
   </div>
+
+ 
+  <!-- Mobile Menü -->
+  <nav class="mobile-menu" id="mobileMenu">
+     <i class="fa-solid fa-xmark" id="close-menu"></i>
+    <ul>
+      <li><a href="#about">Haqqımızda</a></li>
+      <li><a href="#contact">Bizimlə əlaqə</a></li>
+    </ul>
+
+
+  </nav>
+
 </header>
 
 
@@ -62,7 +92,7 @@
   <p>Dronlar</p>
 </div>
 
-<div class="card show" data-category="electronics" data-name="laptops">
+<div class="card show" data-category="laptop" data-name="laptops">
   <img src="images/laptop.png" alt="Noutbuk">
   <p>Noutbuklar</p>
 </div>
@@ -72,7 +102,7 @@
   <p>Elektrik Alətləri</p>
 </div>
 
-<div class="card show" data-category="electronics" data-name="cameras">
+<div class="card show" data-category="furniture" data-name="cameras">
   <img src="images/cameras.png" alt="Kamera">
   <p>Kameralar</p>
 </div>
@@ -107,7 +137,7 @@
   <h2>Haqqımızda</h2> <div class="about-content">
     <img src="images/about-us.png" alt="Haqqımızda Şəkli" class="about-img">
     <p>
-      <strong>Rentify</strong>-a xoş gəlmisiniz — keyfiyyətli əşyaları misilsiz rahatlıqla kirayə vermək üçün vahid platformanız.
+      <strong>Sharling</strong>-a xoş gəlmisiniz — keyfiyyətli əşyaları misilsiz rahatlıqla kirayə vermək üçün vahid platformanız.
       Gündəlik həyatı sadələşdirmək missiyası ilə qurulan Rentify, insanları məişət əşyalarına, elektronikaya, mebelə və s.
       sahiblik yükü olmadan əlverişli şəkildə kirayə götürməyə imkan verir.
       <br><br>
@@ -126,11 +156,11 @@
   <h2>Bizimlə Əlaqə</h2> <div class="contact-content">
     <img src="images/contact.png" alt="Əlaqə Şəkli" class="contact-img">
     <p>
-      Sizdən xəbər almaqdan məmnunuq! <strong>Rentify</strong>-da açıq ünsiyyətin etibarın təməli olduğuna inanırıq.
+      Sizdən xəbər almaqdan məmnunuq! <strong>Sharling</strong>-da açıq ünsiyyətin etibarın təməli olduğuna inanırıq.
       İstər kirayə prosesimizlə bağlı suallarınız olsun, istər mövcud bir sifarişdə köməyə ehtiyacınız olsun,
       istərsə də rəy bildirmək istəyin — dəstək komandamız sizə kömək etməyə hazırdır.
       <br><br>
-      İstənilən vaxt **gduenactus@gmail.com** elektron poçt ünvanı vasitəsilə bizimlə əlaqə saxlayın.
+      İstənilən vaxt <b>gduenactus@gmail.com</b> elektron poçt ünvanı vasitəsilə bizimlə əlaqə saxlayın.
       Yeniliklər, təkliflər və xəbərlər üçün Instagram, Facebook və Twitter kimi sosial media platformalarında da
       bizimlə əlaqə saxlaya bilərsiniz.
       <br><br>
